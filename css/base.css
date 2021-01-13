@@ -1988,7 +1988,7 @@ header {
 
 header .brand {
   display: inline-block;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 
 header .menu {

@@ -49,9 +49,9 @@
   position: absolute;
 }
 
-.affix-top .mediPlayer svg {
+/* .affix-top .mediPlayer svg {
   margin-top: 25px;
-}
+} */
 
 img.dark-brand,img.light-brand {
   width: 100px;
@@ -60,5 +60,9 @@ img.dark-brand,img.light-brand {
 
 header.affix .flex-inline {
     margin-top: 10px;
+}
+
+header.affix-top .flex-inline {
+    margin-top: 35px;
 }
 
