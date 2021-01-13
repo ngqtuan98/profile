@@ -47,9 +47,17 @@
   display: flex;
   align-items: center;
   position: absolute;
-  
 }
 
 .affix-top .mediPlayer svg {
   margin-top: 25px;
+}
+
+img.dark-brand,img.light-brand {
+  width: 100px;
+  /* margin-top: 10px; */
+}
+
+header.affix .flex-inline {
+    margin-top: 10px;
 }
