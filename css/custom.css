@@ -53,16 +53,27 @@
   margin-top: 25px;
 } */
 
-img.dark-brand,img.light-brand {
+img.dark-brand,
+img.light-brand {
   width: 100px;
   /* margin-top: 10px; */
 }
 
 header.affix .flex-inline {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-header.affix-top .flex-inline {
+/* header.affix-top .flex-inline {
     margin-top: 35px;
+} */
+
+header .menu {
+  margin: 0 !important;
 }
 
+.container.shop {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
