@@ -77,3 +77,17 @@ header .menu {
   justify-content: center;
   flex-direction: column;
 }
+
+iframe #main .af {
+    background-color: #85c5e2 !important;
+}
+
+iframe .at {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgb(26 73 95)) !important;
+    padding: 2% !important;
+
+}
+
+iframe .dx {
+    border-radius: 10px !important;
+}
