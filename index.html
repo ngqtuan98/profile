@@ -1,184 +1,167 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Ngqtuan@98</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <meta charset="UTF-8" />
-    <meta name="description" content="profile" />
-    <meta name="keywords" content="ngqtuan98" />
-    <meta name="author" content="Tuan Nguyen" />
 
-    <meta property="og:image" content="images/me/tn.jpg" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="768" />
-    <meta property="og:image:height" content="432" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ngqtuan98.com/" />
-    <meta property="og:title" content="Ngqtuan@98" />
-    <meta property="og:description" content="This is my life." />
+<head>
+  <title>Ngqtuan@98</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="profile" />
+  <meta name="keywords" content="ngqtuan98" />
+  <meta name="author" content="Tuan Nguyen" />
 
-    <link rel="stylesheet" type="text/css" href="css/core.css" />
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="icon" type="image/png" href="images/ui/logo-tn-white.png" />
-    <script src="js/assets/jquery.js"></script>
-    <link rel="stylesheet" href="css/progres-bar.css" />
-  </head>
+  <meta property="og:image" content="images/me/tn.jpg" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="768" />
+  <meta property="og:image:height" content="432" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngqtuan98.com/" />
+  <meta property="og:title" content="Ngqtuan@98" />
+  <meta property="og:description" content="This is my life." />
 
-  <body>
-    <div class="body-overlay"></div>
-    <div id="cursor">
-      <span class="more">
-          <ion-icon name="add-circle-outline"></ion-icon>
-      </span>
-    </div>
-    <!-- Menu-->
-    <div class="nav-container">
-      <ul class="nav">
-        <li>
-          <a href="#">Pages</a>
-          <ul class="dropdown">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="https://bit.ly/ngqtuan98">My Portfolio</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-          <ul class="dropdown">
-            <li><a href="../pages/shop.html">My pic</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Tutorials</a>
-          <ul class="dropdown">
-            <li><a href="../pages/preset.html">Preset | Lr</a></li>
-            <li><a href="../pages/blog-13.html">Blog | 13</a></li>
-          </ul>
-        </li>
-      </ul>
-      <!-- <div class="copyright">
+  <link rel="stylesheet" type="text/css" href="css/core.css" />
+  <link rel="stylesheet" type="text/css" href="css/base.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="icon" type="image/png" href="images/ui/logo-tn-white.png" />
+  <script src="js/assets/jquery.js"></script>
+  <link rel="stylesheet" href="css/progres-bar.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+</head>
+
+<body>
+  <div class="body-overlay"></div>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <!-- Menu-->
+  <div class="nav-container">
+    <ul class="nav">
+      <li>
+        <a href="#">Pages</a>
+        <ul class="dropdown">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="https://bit.ly/ngqtuan98">My Portfolio</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Blog</a>
+        <ul class="dropdown">
+          <li><a href="../pages/shop.html">My pic</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Tutorials</a>
+        <ul class="dropdown">
+          <li><a href="../pages/preset.html">Preset | Lr</a></li>
+          <li><a href="../pages/blog-13.html">Blog | 13</a></li>
+        </ul>
+      </li>
+    </ul>
+    <!-- <div class="copyright">
         2016 &copy; Bone Template. All rights reserved.
       </div> -->
-      <div class="exit"></div>
-      <ul class="social">
-        <li><a href="https://bit.ly/ngqtuan98" class="fa fa-twitter"></a></li>
-        <li><a href="https://bit.ly/ngqtuan98" class="fa fa-dribbble"></a></li>
-        <li><a href="https://bit.ly/ngqtuan98" class="fa fa-facebook"></a></li>
-        <li><a href="https://bit.ly/ngqtuan98" class="fa fa-instagram"></a></li>
-        <li><a href="https://bit.ly/ngqtuan98" class="fa fa-pinterest"></a></li>
-      </ul>
-    </div>
-    <!-- Wrapper-->
-    <div id="wrapper" class="container-fluid smooth-transition">
-      <!-- Header-->
-      <header>
-        <div class="container shop">
-          <!-- Branding-->
-          <div class="flex-inline">
-            <a href="../index.html" class="brand">
-              <img alt="" src="../images/ui/logo-tn.png" class="dark-brand" />
-              <img
-                alt=""
-                src="../images/ui/logo-tn-white.png"
-                class="light-brand"
-              />
-            </a>
-            <!-- Media Player-->
-            <div class="mediPlayer">
-              <audio
-                class="listen"
-                preload="none"
-                data-size="250"
-                src="audio/nothing-the-same.mp3"
-              ></audio>
-            </div>
-          </div>
-          <div class="">
-            <!-- Menu-->
-            <div class="menu"></div>
+    <div class="exit"></div>
+    <ul class="social">
+      <li><a href="https://bit.ly/ngqtuan98" class="fa fa-twitter"></a></li>
+      <li><a href="https://bit.ly/ngqtuan98" class="fa fa-dribbble"></a></li>
+      <li><a href="https://bit.ly/ngqtuan98" class="fa fa-facebook"></a></li>
+      <li><a href="https://bit.ly/ngqtuan98" class="fa fa-instagram"></a></li>
+      <li><a href="https://bit.ly/ngqtuan98" class="fa fa-pinterest"></a></li>
+    </ul>
+  </div>
+  <!-- Wrapper-->
+  <div id="wrapper" class="container-fluid smooth-transition">
+    <!-- Header-->
+    <header>
+      <div class="container shop">
+        <!-- Branding-->
+        <div class="flex-inline">
+          <a href="../index.html" class="brand">
+            <img alt="" src="../images/ui/logo-tn.png" class="dark-brand" />
+            <img alt="" src="../images/ui/logo-tn-white.png" class="light-brand" />
+          </a>
+          <!-- Media Player-->
+          <div class="mediPlayer">
+            <audio class="listen" preload="none" data-size="250" src="audio/nothing-the-same.mp3"></audio>
           </div>
         </div>
-      </header>
-      <!-- Hero & Tera Slider-->
-      <section class="slider">
-        <ul class="slides">
-          <!-- Slide-->
-          <li style="background: #67883329" class="slide">
-            <!-- Background-->
-            <div class="hero fs vbottom">
-              <div
-                style="background-image: url(https://i.imgur.com/9sQKaOJ.jpg)"
-                class="bg faded _5 parallax"
-              ></div>
-              <div class="container text-center offset-top">
-                <!-- Content-->
-                <div class="content text">
-                  <!-- <h1 class="lg">We're creatives</h1> -->
-                  <h4 class="lg">"i keep everything inside"</h4>
+        <div class="">
+          <!-- Menu-->
+          <div class="menu"></div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero & Tera Slider-->
+    <section class="slider">
+      <ul class="slides">
+        <!-- Slide-->
+        <li style="background: #67883329" class="slide">
+          <!-- Background-->
+          <div class="hero fs vbottom">
+            <div style="background-image: url(https://i.imgur.com/9sQKaOJ.jpg)" class="bg faded _5 parallax"></div>
+            <div class="container text-center offset-top">
+              <!-- Content-->
+              <div class="content text">
+                <!-- <h1 class="lg">We're creatives</h1> -->
+                <h4 class="lg">"i keep everything inside"</h4>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Slide-->
+        <li class="slide dark screen">
+          <!-- Background-->
+          <div class="hero fs vcenter">
+            <div style="background-image: url(https://i.imgur.com/sXjdtbC.jpg)" class="bg faded _5 parallax"></div>
+            <div class="container text-center">
+              <!-- Content-->
+              <div class="content text _right">
+                <!-- <h1 class="lg">Creative Digital Agency</h1> -->
+                <h4>"anywhere, somewhere, far away"</h4>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Slide-->
+        <li class="slide dark">
+          <!-- Background-->
+          <div class="hero fs vbottom">
+            <div style="background-image: url(https://i.imgur.com/pVbDJHj.jpg)" class="bg faded-subtle parallax"></div>
+            <div class="container">
+              <!-- Content-->
+              <div class="content text">
+                <h4>
+                  "The person you think of when you stand in front of the
+                  ocean. That's the person you're in love with"
+                </h4>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="container content">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="title-block">
+              <h3>Hi! I'm Tuan Nguyen</h3>
+              <h6>"Where do you want to go? Far, far away."</h6>
+            </div>
+            <p>
+              4 years ago I used to work as multimedia communication, then
+              Life flows propelled brought me work as "coder" and now I am
+              working as a developer platform.
+            </p>
+          </div>
+          <div class="col-md-8 col-md-offset-2" style="display: flex; justify-content: center; margin-top: 5%">
+            <div id="wrapper">
+              <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                  <img style="width:70%" alt="" src="./images/me/tn.jpg" />
                 </div>
               </div>
             </div>
-          </li>
-          <!-- Slide-->
-          <li class="slide dark screen">
-            <!-- Background-->
-            <div class="hero fs vcenter">
-              <div
-                style="background-image: url(https://i.imgur.com/sXjdtbC.jpg)"
-                class="bg faded _5 parallax"
-              ></div>
-              <div class="container text-center">
-                <!-- Content-->
-                <div class="content text _right">
-                  <!-- <h1 class="lg">Creative Digital Agency</h1> -->
-                  <h4>"anywhere, somewhere, far away"</h4>
-                </div>
-              </div>
-            </div>
-          </li>
-          <!-- Slide-->
-          <li class="slide dark">
-            <!-- Background-->
-            <div class="hero fs vbottom">
-              <div
-                style="background-image: url(https://i.imgur.com/pVbDJHj.jpg)"
-                class="bg faded-subtle parallax"
-              ></div>
-              <div class="container">
-                <!-- Content-->
-                <div class="content text">
-                  <h4>
-                    "The person you think of when you stand in front of the
-                    ocean. That's the person you're in love with"
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <div class="container content">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="title-block">
-                <h3>Hi! I'm Tuan Nguyen</h3>
-                <h6>"Where do you want to go? Far, far away."</h6>
-              </div>
-              <p>
-                4 years ago I used to work as multimedia communication, then
-                Life flows propelled brought me work as "coder" and now I am
-                working as a developer platform.
-              </p>
-            </div>
-            <div class="col-md-8 col-md-offset-2"
-              style="display: flex; justify-content: center; margin-top: 5%"
-            >
-              <img style="width:70%" alt="" src="./images/me/tn.jpg"/>
-              <!-- <iframe
+
+            <!-- <iframe
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/qAPgWMo2u-E?controls=0"
@@ -187,29 +170,30 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe> -->
-            </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+  </div>
 
-    <script src="js/main.js"></script>
-    <script src="js/assets/bootstrap.js"></script>
-    <script src="js/assets/imagesloaded.pkgd.min.js"></script>
-    <script src="js/assets/validation.js"></script>
-    <script src="js/assets/masonry.pkgd.min.js"></script>
-    <script src="modules/tera-slider/tera-slider.js"></script>
-    <script src="modules/tera-lightbox/tera-lightbox.js"></script>
-    <script src="js/assets/animsition.js"></script>
-    <script src="js/functions.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/assets/bootstrap.js"></script>
+  <script src="js/assets/imagesloaded.pkgd.min.js"></script>
+  <script src="js/assets/validation.js"></script>
+  <script src="js/assets/masonry.pkgd.min.js"></script>
+  <script src="modules/tera-slider/tera-slider.js"></script>
+  <script src="modules/tera-lightbox/tera-lightbox.js"></script>
+  <script src="js/assets/animsition.js"></script>
+  <script src="js/functions.js"></script>
 
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/player.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(".mediPlayer").mediaPlayer();
-         
-      });
-    </script>
-  </body>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/player.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".mediPlayer").mediaPlayer();
+
+    });
+  </script>
+</body>
+
 </html>
